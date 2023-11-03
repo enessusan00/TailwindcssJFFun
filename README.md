@@ -7,6 +7,8 @@
 ## Includes
 
 - [x] Circular Progress Bar
+- [x] Circular Progress Bar Pure Css
+
 
 
 All commit written by AI 🤖 
