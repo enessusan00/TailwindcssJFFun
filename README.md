@@ -18,3 +18,9 @@ All commit written by AI 🤖
 ```bash
 npm install
 ```
+## Run
+
+```bash
+ng serve
+```
+
