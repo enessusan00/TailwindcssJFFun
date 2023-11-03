@@ -9,7 +9,9 @@
 - [x] Circular Progress Bar
 - [x] Circular Progress Bar Pure Css
 
+## Dreams
 
+- [ ] Cursor Animation
 
 All commit written by AI 🤖 
 
