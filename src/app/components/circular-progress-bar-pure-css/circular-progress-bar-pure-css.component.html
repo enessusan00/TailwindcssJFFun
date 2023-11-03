@@ -1,0 +1,32 @@
+<div
+    class="grid grid-cols-1  place-content-center h-screen w-screen bg-slate-800 bg-gradient-to-br from-pink-300 via-purple-300 to-indigo-400 ">
+    <div class=" h-full w-full">
+        <h1 class="text-center text-6xl mb-12 text-white font-semibold">Circular Progres Bar</h1>
+        <div class="flex justify-center ">
+            <button (click)="decrease()"
+                class="border-2 p-2 bg-zinc-100 h-12 w-12 text-3xl mr-3 rounded-full leading-6 mt-14 active:scale-95 transition-all shadow-md active:shadow-none">-</button>
+            <div class="p-2 border-2 rounded-full   shadow-inner mr-3 ">
+                <div class="wrap">
+                    <div class="root  transition-all    ">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <mask id="mask">
+                                    <circle class="circle transition-all    " cx="25" cy="25" r="22.5" stroke="white"
+                                        stroke-width="3" fill="none"></circle>
+                                </mask>
+                            </defs>
+                            <foreignObject x="0" y="0" width="50" height="50" mask="url(#mask)">
+                                <div class="bg"></div>
+                            </foreignObject>
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+            <button (click)="increase()"
+                class="border-2 p-2 bg-zinc-100 h-12 w-12 text-3xl mr-3 rounded-full leading-5 mt-14 active:scale-95 transition-all shadow-md active:shadow-none">+</button>
+        </div>
+        <div class="flex justify-center mt-12 text-center  text-white font-semibold text-2xl">
+        </div>
+    </div>
+</div>

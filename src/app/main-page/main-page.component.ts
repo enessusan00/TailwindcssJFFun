@@ -9,4 +9,7 @@ export class MainPageComponent {
   goToCircularProgressBar() {
     window.location.href = 'cpb';
   }
+  goToCircularProgressBarPureCss(){
+    window.location.href = 'cpb-pure-css';
+  }
 }
