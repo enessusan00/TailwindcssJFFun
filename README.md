@@ -8,11 +8,13 @@
 
 - [x] Circular Progress Bar
 - [x] Circular Progress Bar Pure Css
-
+- [x] 3D Effect Card(According to my research, this is not possible using only TailwindCss.)
 ## Dreams
 
 - [ ] Cursor Animation
 - [ ] Line Chart
+
+
 
 All commit written by AI 🤖 
 

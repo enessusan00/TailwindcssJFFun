@@ -12,4 +12,7 @@ export class MainPageComponent {
   goToCircularProgressBarPureCss(){
     window.location.href = 'cpb-pure-css';
   }
+  goTo3dCard(){
+    window.location.href = 'card-3d';
+  }
 }
