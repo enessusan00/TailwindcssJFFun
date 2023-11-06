@@ -12,6 +12,7 @@
 ## Dreams
 
 - [ ] Cursor Animation
+- [ ] Line Chart
 
 All commit written by AI 🤖 
 
