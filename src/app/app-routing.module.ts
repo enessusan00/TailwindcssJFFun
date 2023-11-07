@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { CircularProgressBarPureCssComponent } from './components/circular-progress-bar-pure-css/circular-progress-bar-pure-css.component';
 import { Card3dComponent } from './components/card3d/card3d.component';
+import { CursorAnimationComponent } from './components/cursor-animation/cursor-animation.component';
 
 const routes: Routes = [
 
@@ -12,6 +13,8 @@ const routes: Routes = [
   { path: 'cpb', component: CircularProgressBarComponent },
   { path: 'cpb-pure-css', component: CircularProgressBarPureCssComponent },
   { path: 'card-3d', component: Card3dComponent},
+  { path: 'cursor-animation', component: CursorAnimationComponent},
+
 ];
 
 @NgModule({

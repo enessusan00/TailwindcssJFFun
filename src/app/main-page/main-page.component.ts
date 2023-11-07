@@ -15,4 +15,7 @@ export class MainPageComponent {
   goTo3dCard(){
     window.location.href = 'card-3d';
   }
+  goToCursorAnimation(){
+    window.location.href = 'cursor-animation';
+  }
 }
