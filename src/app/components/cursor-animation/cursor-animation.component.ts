@@ -22,7 +22,7 @@ export class CursorAnimationComponent {
       } else {
         this.on = false;
       }
-    }, 100);
+    }, 10);
   }
   bigg = 0;
   showBigg = false;
