@@ -1,0 +1,13 @@
+<div
+    class="grid grid-cols-10  h-screen w-screen  bg-gradient-to-br from-gray-300 via-blue-300 to-zinv-400  overflow-hidden ">
+    <div *ngFor="let item of anime; let i =index">
+        <div class=" h-full w-full  transition-all ">
+            <div [id]='i' [@fadeOut]="'in'"
+                class=" relative  h-24 w-24 transition-all duration-200 overflow-hidden rotate-45"
+                *ngIf="isSpecialIndex(i)">
+                <div class="h-12 w-12 bg-white absolute">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -9,13 +9,16 @@ export class MainPageComponent {
   goToCircularProgressBar() {
     window.location.href = 'cpb';
   }
-  goToCircularProgressBarPureCss(){
+  goToCircularProgressBarPureCss() {
     window.location.href = 'cpb-pure-css';
   }
-  goTo3dCard(){
+  goTo3dCard() {
     window.location.href = 'card-3d';
   }
-  goToCursorAnimation(){
+  goToCursorAnimation() {
     window.location.href = 'cursor-animation';
+  }
+  gotoGlitter() {
+    window.location.href = 'glitter';
   }
 }

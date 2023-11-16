@@ -10,6 +10,8 @@
 - [x] Circular Progress Bar Pure Css
 - [x] 3D Effect Card(According to my research, this is not possible using only TailwindCss.)
 - [x] Cursor Animation
+- [x] Glitter Zigzag Animation
+
 
 ## Dreams
 

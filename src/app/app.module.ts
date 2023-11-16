@@ -10,18 +10,25 @@ import { Router } from '@angular/router';
 import { CircularProgressBarPureCssComponent } from './components/circular-progress-bar-pure-css/circular-progress-bar-pure-css.component';
 import { Card3dComponent } from './components/card3d/card3d.component';
 import { CursorAnimationComponent } from './components/cursor-animation/cursor-animation.component';
+import { GlitterComponent } from './components/glitter/glitter.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RandomGlitterComponent } from './components/random-glitter/random-glitter.component';
 @NgModule({
   declarations: [
     AppComponent,
     CircularProgressBarPureCssComponent,
     Card3dComponent,
     CursorAnimationComponent,
+    GlitterComponent,
+    RandomGlitterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CommonModule
+    CommonModule,
+    BrowserAnimationsModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

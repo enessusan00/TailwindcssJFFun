@@ -5,7 +5,7 @@
 
             <div #cardRef (mouseleave)="resetCardStyles()" (mouseenter)="setBoundingRect($event)"
                 (mousemove)="rotateCard($event)" [ngStyle]="cardStyles"
-                class="group flex shadow-md hover:shadow-none  relative grid w-[260px] grid-rows-[200px_120px_40px] border-green-300 border-4 rounded-md bg-[#FFFEEC] p-4 text-[#01A977] transition-transform ease-out hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)]">
+                class="group flex shadow-md hover:shadow-none  relative  w-[260px] grid-rows-[200px_120px_40px] border-green-300 border-4 rounded-md bg-[#FFFEEC] p-4 text-[#01A977] transition-transform ease-out hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)]">
                 <div class="w-full h-1/2 bg-gradient-to-tr from-blue-300 via-green-300 to-indigo-800 rounded-md "></div>
                 <div class="w-full h-12  bg-gradient-to-tr from-blue-300 via-green-300 to-indigo-800 rounded-md  ">
                 </div>
