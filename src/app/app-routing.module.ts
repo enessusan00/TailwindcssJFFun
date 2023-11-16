@@ -7,6 +7,7 @@ import { CircularProgressBarPureCssComponent } from './components/circular-progr
 import { Card3dComponent } from './components/card3d/card3d.component';
 import { CursorAnimationComponent } from './components/cursor-animation/cursor-animation.component';
 import { GlitterComponent } from './components/glitter/glitter.component';
+import { RandomGlitterComponent } from './components/random-glitter/random-glitter.component';
 
 const routes: Routes = [
 
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'card-3d', component: Card3dComponent},
   { path: 'cursor-animation', component: CursorAnimationComponent},
   { path: 'glitter', component: GlitterComponent},
+  { path: 'random-glitter', component: RandomGlitterComponent},
 
 ];
 

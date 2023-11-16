@@ -21,4 +21,7 @@ export class MainPageComponent {
   gotoGlitter() {
     window.location.href = 'glitter';
   }
+  gotoRandomGlitter() {
+    window.location.href = 'random-glitter';
+  }
 }

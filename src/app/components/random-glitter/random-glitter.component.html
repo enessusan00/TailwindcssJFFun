@@ -1,1 +1,13 @@
-<p>random-glitter works!</p>
+<div class="grid grid-cols-1  place-content-center h-screen w-screen  bg-gradient-to-br from-gray-700 via-blue-300 overflow-hidden  ">
+    <div class="flex justify-center  h-full w-full ">
+        <div class="grid grid-cols-12 h-screen w-screen rounded-lg bg-white ">
+            <div *ngFor="let item of dotArray; let i = index">
+                <div  class="  place-content-center grid    h-full  w-full relative ">
+                    <div [id]="i" [ngClass]="{' opacity-0 z-0': setOpacity(i),'opacity-10 ': setOpacity(i)==false||setRandomColor(i)}"
+                        class=" w-32 h-32 rounded-full     duration-1000    blur-3xl   transition-all z-40 absolute overflow-hidden top-0  left-0 scale-150 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
