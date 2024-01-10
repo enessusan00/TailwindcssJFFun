@@ -1,17 +1,20 @@
 <div
-    class="grid grid-cols-1  place-content-center h-screen w-screen  bg-gradient-to-t from-blue-300 via-darkblue-300 to-indigo-800 ">
-    <div class=" h-full w-full">
+    class="grid w-screen h-screen grid-cols-1 place-content-center bg-gradient-to-t from-blue-300 via-darkblue-300 to-indigo-800 ">
+    <div class="w-full h-full ">
         <div class="flex justify-center ">
 
             <div #cardRef (mouseleave)="resetCardStyles()" (mouseenter)="setBoundingRect($event)"
                 (mousemove)="rotateCard($event)" [ngStyle]="cardStyles"
-                class="group flex shadow-md hover:shadow-none  relative  w-[260px] grid-rows-[200px_120px_40px] border-green-300 border-4 rounded-md bg-[#FFFEEC] p-4 text-[#01A977] transition-transform ease-out hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)]">
-                <div class="w-full h-1/2 bg-gradient-to-tr from-blue-300 via-green-300 to-indigo-800 rounded-md "></div>
-                <div class="w-full h-12  bg-gradient-to-tr from-blue-300 via-green-300 to-indigo-800 rounded-md  ">
+                class="group grid shadow-md hover:shadow-none  relative  w-[260px] grid-rows-[200px_120px_40px] border-green-300 border-4 rounded-md bg-[#FFFEEC] p-4 text-[#01A977] transition-transform ease-out hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)]">
+                <div class="w-full h-12 rounded-md bg-gradient-to-tr from-blue-300 via-green-300 to-indigo-800 ">
                 </div>
-                <div class="font-extrabold text-center animate-bounce text-transparent text-2xl bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">Hover !</div>
+                <div
+                    class="text-2xl font-extrabold text-center text-transparent animate-bounce bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">
+                    Hover !</div>
                 <!-- Kart İçeriği Buraya Gelecek -->
-                <div class="group-hover:opacity-100 opacity-0 transition-all absolute -bottom-12 text-white w-full text-center" > Magic ! </div>
+                <div
+                    class="absolute w-full text-center text-white transition-all opacity-0 group-hover:opacity-100 -bottom-12">
+                    Magic ! </div>
             </div>
         </div>
     </div>

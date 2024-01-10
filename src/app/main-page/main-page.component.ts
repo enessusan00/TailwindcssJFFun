@@ -24,4 +24,10 @@ export class MainPageComponent {
   gotoRandomGlitter() {
     window.location.href = 'random-glitter';
   }
+  gotoGraphLine(){
+    window.location.href = 'graph-line';
+  }
+  goToCoolGrid() {
+    window.location.href = 'cool-grid';
+  }
 }

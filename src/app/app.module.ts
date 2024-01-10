@@ -14,6 +14,8 @@ import { GlitterComponent } from './components/glitter/glitter.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RandomGlitterComponent } from './components/random-glitter/random-glitter.component';
+import { GraphLineComponent } from './components/graph-line/graph-line.component';
+import { CoolGridComponent } from './components/cool-grid/cool-grid.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +24,8 @@ import { RandomGlitterComponent } from './components/random-glitter/random-glitt
     CursorAnimationComponent,
     GlitterComponent,
     RandomGlitterComponent,
+    GraphLineComponent,
+    CoolGridComponent,
   ],
   imports: [
     BrowserModule,
