@@ -23,7 +23,7 @@ All notable changes to this project will be documented in this file.
 
 - Feature A
 - Feature B
-
+- Feature C
 ### Changed
 
 - Refactored code for better performance
