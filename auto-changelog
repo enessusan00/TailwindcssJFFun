@@ -1,0 +1,6 @@
+extending: 'angular-prefix'
+package:
+  path: 'package.json'
+template: 'keepachangelog'
+remote:
+  origin: 'https://github.com/enessusan00/TailwindcssJFFun.git'
