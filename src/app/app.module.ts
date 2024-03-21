@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RandomGlitterComponent } from './components/random-glitter/random-glitter.component';
 import { GraphLineComponent } from './components/graph-line/graph-line.component';
 import { CoolGridComponent } from './components/cool-grid/cool-grid.component';
+import { HoverTextComponent } from './hover-text/hover-text.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +27,7 @@ import { CoolGridComponent } from './components/cool-grid/cool-grid.component';
     RandomGlitterComponent,
     GraphLineComponent,
     CoolGridComponent,
+    HoverTextComponent,
   ],
   imports: [
     BrowserModule,
